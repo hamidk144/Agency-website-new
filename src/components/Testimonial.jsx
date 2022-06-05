@@ -17,18 +17,16 @@ export default function Testimonial() {
         <div className="testimonial">
           <div className="title">
             <div className="image">
-              <img src={avatar} alt="avatar" />
+              <img src={avatar} alt="avatar" style={{borderRadius: '50%', width:'50px', height:'50px'}}/>
             </div>
             <div className="info">
-              <h3>Kishan Sheth</h3>
+              <h3>Hamid Khan</h3>
               <span>Full Stack Developer</span>
             </div>
           </div>
           <p className="desrciption">
-            Jetrips Hotel is an excellent choice for anybody for considering
-            hosting their events there. Top level facilities and excellent staff
-            make for a briallant environment within which to operate. The hotel
-            is meticulous in its planning.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facere dolores magnam beatae quia in qui expedita eaque ipsam maxime sit rerum excepturi explicabo exercitationem, esse recusandae molestias aut omnis.
+            Sapiente porro tenetur repellendus molestiae repellat. 
           </p>
         </div>
         <div className="testimonial-image-two">
